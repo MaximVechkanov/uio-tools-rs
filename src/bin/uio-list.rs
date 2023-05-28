@@ -72,7 +72,7 @@ fn main() {
     let args = CliParams::parse();
 
     if args.index.is_some() {
-        print_properties("/uio".to_owned() + &args.index.unwrap().to_string());
+        print_properties("uio".to_owned() + &args.index.unwrap().to_string());
         return;
     }
 
